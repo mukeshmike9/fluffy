@@ -1,0 +1,16 @@
+[package]
+name = "fluffy"
+version = "0.1.0"
+authors = ["Mukesh CHaurasiya <mukeshmike9@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+
+[build-dependencies]
+cc = "1.0.59"
+
+[profile.dev]
+panic = 'abort'
